@@ -1,0 +1,32 @@
+{
+  "model_name": "Gradient Boosting Regressor (Primary)",
+  "training_date": "2026-06-26 05:46:08",
+  "dataset_size": 7776,
+  "train_size": 6220,
+  "test_size": 1556,
+  "features": [
+    "CuringAge",
+    "WaterCementRatio",
+    "MixRatioNumeric",
+    "CementBrandEncoded",
+    "CuringTechniqueEncoded"
+  ],
+  "metrics": {
+    "R2": 0.9994,
+    "RMSE": 0.0527,
+    "MAE": 0.0389,
+    "MAPE": 1.55
+  },
+  "cross_validation": {
+    "method": "5-Fold KFold (shuffled)",
+    "mean_R2": "N/A",
+    "std_R2": "N/A"
+  },
+  "feature_importance": {
+    "CuringAge": 0.876,
+    "WaterCementRatio": 0.0003,
+    "MixRatioNumeric": 0.0019,
+    "CementBrandEncoded": 0.1198,
+    "CuringTechniqueEncoded": 0.002
+  }
+}

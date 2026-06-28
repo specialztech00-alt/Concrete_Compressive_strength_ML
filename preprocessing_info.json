@@ -1,0 +1,28 @@
+{
+  "cement_ranking": {
+    "Dangote": 4,
+    "Lafarge": 3,
+    "BUA": 2,
+    "PureChem": 1
+  },
+  "curing_ranking": {
+    "submerged": 3,
+    "sprinkling": 2,
+    "air": 1
+  },
+  "feature_order": [
+    "CuringAge",
+    "WaterCementRatio",
+    "MixRatioNumeric",
+    "CementBrandEncoded",
+    "CuringTechniqueEncoded"
+  ],
+  "mix_ratio_map": {
+    "1:5": 5,
+    "1:6": 6,
+    "1:7": 7,
+    "1:8": 8,
+    "1:9": 9,
+    "1:10": 10
+  }
+}
